@@ -2,7 +2,7 @@
 
 ## Overview
 
-**SalesDataETL** is a project that demonstrates the end-to-end process of extracting, transforming, and loading sales data to perform in-depth analysis. The project fetches data from Kaggle using its API, preprocesses it using Python and Jupyter Notebooks, and then uses SQL to answer key business questions.
+**SalesDataETL** is a project that demonstrates the end-to-end process of extracting, transforming, and loading sales data to perform in-depth analysis. The project fetches data from Kaggle using its API, preprocesses it using Python and Jupyter Notebooks, and then loaded to SQL to answer key business questions.
 
 ## Project Components
 
@@ -13,8 +13,12 @@
 2. **Data Preprocessing**
    - The data is cleaned and transformed using Python in Jupyter Notebooks.
    - Preprocessing steps include handling missing values, data normalization, and feature engineering.
+   
+3. **Data Loading**
+   - The data is loaded to Mysql Data base using python library mysqlalchemy and pymysql
+   - Replace method is used to add table in Orders Database.
 
-3. **Data Analysis**
+4. **Data Analysis**
    - After preprocessing, the data is loaded into a MySQL database.
    - SQL queries are used to perform detailed analysis and answer specific business questions.
 
